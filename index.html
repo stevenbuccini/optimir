@@ -13,87 +13,75 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   </head>
-  <style> 
-        * {
-           margin: 0;
-           padding: 0; 
-        }
-        #img1 {
-            margin: 0 auto;
-            min-width: 100%;
-        }
-        #img2 {
-            max-width: 100%;
-            margin: 0 auto;
-        }
-    </style>
-  <body>
-  		<nav class="navbar navbar-inverse" role="navigation">
-                <div class="container">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		        <a class="navbar-brand" href ="#myCarousel">
-		    		<img id = "logo" src ="img/optimir.jpg">
-		    	</a>
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		    </div>
-
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav pagination-lg">
-		        <li><a href="#aboutUs">About Us</a></li>
-		        <li><a href="http://www.dogguide.net/blog/wp-content/uploads/2008/12/3070191186_2f7a659758.jpg">Our Work</a></li>
-		        <li><a href="#">Contact Us</a></li>
-		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-                </nav>
+  <body data-spy="scroll" data-target=".navbar-collapse">
+  	<div class="navbar navbar-default navbar-fixed-top " role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img class="img-responsive center-block" alt="Responsive image" src="img/official.png" id = "logo"></a>
         </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about-us-main">About</a></li>
+            <li><a href="#past-clients">Past Clients</a></li>
+            <li><a href="#members">Members</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div><!--/.navbar navbar-default navbar-fixed-top -->
 
 
-	<div id="myCarousel" class="carousel slide">
-        <div class = "container-fluid">
-                <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1" class></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="img/bay.jpg"/ id = "img1">
-                        <div class = "container">
-                        </div>
-                    </div>
- 
-                <div class="item">
-                        <img src="img/optimir2.jpg" id = "img2">
-                        <div class= "container">
-                </div>
+	    <!-- "What We Do" Carousel -->
+    <div id="home" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#home" data-slide-to="0" class="active"></li>
+        <li data-target="#home" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="container" id = "img1">
+            <img src="img/bay.jpg" alt="First slide">
+            <!-- <div class="carousel-caption">
+              <h1>Service I</h1>
+              <p>details on service 1 with a cool background pic</p>
+            </div> -->
+          </div>
         </div>
-
-        <a class = "left carousel-control" href = "#myCarousel" data-slide = "prev">
-                <span class = "glyphicon glyphicon-chevron-left"> </span>
-        </a>
-        
-        <a class = "right carousel-control" href = "#myCarousel" data-slide = "next">
-                <spann class = "glyphicon glyphicon-chevron-right"></span>
-        </a>
-
+        <div class="item">
+          <div class="container" id = "img2">
+            <img src="img/official_text.jpg" alt="Second slide">
+            <!-- <div class="carousel-caption">
+              <h1>Service II</h1>
+              <p>insert details on service 2 with another cool background pic.</p>
+            </div> -->
+          </div>
         </div>
+      </div>
+      <a class="left carousel-control" href="#home" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#home" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
 
-        <div class="page-header">
-            <h1>About Us</h1>
-            <p class = "bg-primary"> </p>
+    <main class="bs-docs-masthead" id="about-us-main" role="main">
+      <div class="container" id="about">
+        <h1 class="section-title">About Us</h1>
+        <div class="jumbotron" id = "about-us">
+            <p>Optimir Consulting was founded in 2011 by three UC Berkeley students passionate about business strategy and growth. Optimir is a non-profit consulting group that provides innovative, sustainable, and substantial improvements for various industry clients in the start-up world. Our consultants come from a variety of academic disciplines and experiences and are dedicated to providing results-driven solutions. As a student start up, we are committed to developing and expanding our consultants' skills. We offer fast-paced and unique training for our consultants in order to optimize our clients' operations through implementation. Compensation for our services may be claimed as charitable and tax-deductible under the Internal Revenue Service, Code 501(c) 3.</p>
         </div>
-
-        <div id = "aboutUs" class = "jumbotron">
-                <p id = "aboutUsBG" class = "bg">
-                Optimir Consulting was founded in 2011 by three UC Berkeley students passionate about business strategy and growth. Optimir is a non-profit consulting group that provides innovative, sustainable, and substantial improvements for various industry clients in the start-up world. Our consultants come from a variety of academic disciplines and experiences and are dedicated to providing results-driven solutions. As a student start up, we are committed to developing and expanding our consultants' skills. We offer fast-paced and unique training for our consultants in order to optimize our clients' operations through implementation. Compensation for our services may be claimed as charitable and tax-deductible under the Internal Revenue Service, Code 501(c) 3. </p>
-            </div>
-        </div>
+      </div> <!-- /container -->
+    </main>
   </body>
 </html>

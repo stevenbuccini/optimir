@@ -1,19 +1,39 @@
 #logo {
-	height: 50px;
+	height: 51px;
 	margin-top: -15px;
 }
-
+* {
+	 margin: 0; 
+	 padding: 0;	
+}
 #img1 {
-	width: 950px;
-	height: 400px;
+	margin: 0 auto;
+	min-height: 690px;
 }
-
 #img2 {
-	width: 400px;
-	height: 400px;
-	margin-left: 250px;
+	margin: 0 auto;
+	min-height: 690px;
+
+}
+.section-title {
+        text-align: center;
+        padding-top: 15px;
+        color:#3167B1;
+}
+#about-us-main {
+	min-height: 590 px;
+}
+#about-us {
+		margin-top: 15 px;
+        text-align: left;
+        background-color: #dddddd;
+}
+#contact {
+        min-height: 590px;
+        margin-top: 100px;
 }
 
-#aboutUsBG {
-	color: #224EC9;
+.carousel-slide {
+	margin-top: 15px;
+	min-height: 690px;
 }
