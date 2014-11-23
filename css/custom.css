@@ -2,18 +2,28 @@
 	height: 50px;
 	margin-top: -15px;
 }
-
+* {
+	 margin: 0; padding: 0;
+	
+}
 #img1 {
-	width: 950px;
-	height: 400px;
+	margin: 0 auto;
+	min-width: 100%;
 }
-
 #img2 {
-	width: 400px;
-	height: 400px;
-	margin-left: 250px;
+	margin: 0 auto;
+	max-width: 100%;
 }
-
-#aboutUsBG {
-	color: #224EC9;
+.section-title {
+        text-align: center;
+        padding-top: 15px;
+}
+#about-us {
+        background-color:#3167B1;
+        color: white;
+        text-align: left;
+}
+#contact {
+        min-height: 590px;
+        margin-top: 100px;
 }
