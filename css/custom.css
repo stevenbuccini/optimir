@@ -51,47 +51,46 @@
 	height: 150px;
 	color: white;
 }
-.social-icons {
-	padding: 0!important;
-	margin: 0!important;
-	list-style-type: none!important;
+.social-reverse {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	background-position: 0px 48px;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
 }
-.social-icons li{
-	float: left!important;
-	margin-right: 2px!important;
-	margin-bottom: 2px!important;
-	padding: 0px!important;
-	display: inline!important;
-	width: auto!important;
-
-}			
-.social-icons li a {
-	-moz-transition: all 0.3s ease 0s;
-	display: block!important;
-	float: left!important;
-	height: 100%!important;
-	margin: 0!important;
-	padding: 0!important;
-	width: 40px!important;
-	height: 40px!important;
-	text-indent: -9999px!important;
+.social-reverse:hover {
+	background-position: 0px 0px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
 }
-.social-icons li.facebook a {
-	background: url(img/facebook.jpg) no-repeat 0 0;
+.social-slide {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
 }
-.social-icons li.facebook a:hover {
-	background: url(img/facebook.jpg);
-	background-color: #3b5998;
+.social-slide:hover {
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
 }
-.social-icons li.linkedin a {
-	background: url(img/linkedin.img) no-repeat 0 0;
+.facebook-hover {
+	background-image: url("../img/facebook-hover.png");
 }
-.social-icons li.linkedin a:hover {
-	background-color: #71b2d0;
+.linkedin-hover {
+	background-image: url("../img/linkedin-hover.png");
 }
-.social-icons li.twitter a {
-	background: url(img/twitter.jpg) no-repeat 0 0;
+.twitter-hover {
+	background-image: url("../img/twitter-hover.png");
 }
-.social-icons li.twitter a:hover {
-	background-color: #48c4d2;
+.mail-hover {
+	background-image: url("../img/mail-hover.png");
 }
