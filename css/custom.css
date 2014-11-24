@@ -8,13 +8,13 @@
 }
 #img1 {
 	margin: 0 auto;
-	min-height: 850px;
+	min-height: 770px;
 	min-width: 1277px;
 }
 #img2 {
 	padding-top: 30px;
 	margin: 0 auto;
-	min-height: 850px;
+	min-height: 770px;
 	width: 1000px;
 }
 .section-title {
@@ -34,10 +34,6 @@
 #about {
 	padding-top: 100px;
 }
-#contact {
-        min-height: 590px;
-        margin-top: 100px;
-}
 .carousel-slide {
 	margin-top: 15px;
 	min-height: 690px;
@@ -49,4 +45,53 @@
 
 .col-lg-4 {
 	text-align: center;
+}
+.footer {
+	background-color: rgb(100, 165, 230);
+	height: 150px;
+	color: white;
+}
+.social-icons {
+	padding: 0!important;
+	margin: 0!important;
+	list-style-type: none!important;
+}
+.social-icons li{
+	float: left!important;
+	margin-right: 2px!important;
+	margin-bottom: 2px!important;
+	padding: 0px!important;
+	display: inline!important;
+	width: auto!important;
+
+}			
+.social-icons li a {
+	-moz-transition: all 0.3s ease 0s;
+	display: block!important;
+	float: left!important;
+	height: 100%!important;
+	margin: 0!important;
+	padding: 0!important;
+	width: 40px!important;
+	height: 40px!important;
+	text-indent: -9999px!important;
+}
+.social-icons li.facebook a {
+	background: url(img/facebook.jpg) no-repeat 0 0;
+}
+.social-icons li.facebook a:hover {
+	background: url(img/facebook.jpg);
+	background-color: #3b5998;
+}
+.social-icons li.linkedin a {
+	background: url(img/linkedin.img) no-repeat 0 0;
+}
+.social-icons li.linkedin a:hover {
+	background-color: #71b2d0;
+}
+.social-icons li.twitter a {
+	background: url(img/twitter.jpg) no-repeat 0 0;
+}
+.social-icons li.twitter a:hover {
+	background-color: #48c4d2;
 }
