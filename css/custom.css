@@ -8,11 +8,13 @@
 }
 #img1 {
 	margin: 0 auto;
-	min-height: 690px;
+	height: 500px;
+	max-width: 100%;
 }
 #img2 {
 	margin: 0 auto;
-	min-height: 690px;
+	height: 500px;
+	max-width: 100%;
 }
 .section-title {
         text-align: center;
@@ -23,9 +25,10 @@
 	min-height: 590 px;
 }
 #about-us {
-		margin-top: 15 px;
-        text-align: left;
-        background-color: #dddddd;
+	background-color: #3167B1;
+	margin-top: 15 px;
+    text-align: left;
+    color: white;
 }
 #contact {
         min-height: 590px;
