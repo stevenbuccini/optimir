@@ -8,19 +8,18 @@
 }
 #img1 {
 	margin: 0 auto;
-	min-height: 770px;
+	min-height: 790px;
 	min-width: 1277px;
 }
 #img2 {
 	padding-top: 30px;
 	margin: 0 auto;
-	min-height: 770px;
+	min-height: 790px;
 	width: 1000px;
 }
 .section-title {
         text-align: center;
         padding-top: 250px;
-        padding-bottom: 30px;
         color: rgb(100, 165, 230);
 }
 #about-us-main {
@@ -91,6 +90,7 @@
 .mail-hover {
 	background-image: url("../img/mail-hover.png");
 }
+
 .image-shade {
 	height: 250px;
 	width: 250px;
