@@ -16,6 +16,11 @@
 	min-height: 790px;
 	width: 1000px;
 }
+#img4 {
+	margin: 0 auto;
+	min-height: 750px;
+	min-width: 100%;
+}
 #members {
 	padding-bottom: 30px;
 }
@@ -97,6 +102,7 @@
 	height: 250px;
 	width: 250px;
 	margin: 10px;
+	margin-bottom: 20px;
 	float: left;
 	-webkit-transition: all ease 0.5s;
 	-moz-transition: all ease 0.5s;
@@ -114,8 +120,21 @@
 	-ms-transition: all ease 0.5s;
 	transition: all ease 0.5s;
 }
-.image-shade img:hover {
-	margin: 0px;
+.overlay {  
+	font-size:20px; 
+	font-weight:700;
+    text-align:center;
+    opacity:0;
+    -webkit-transition: opacity .1s ease;
+	-moz-transition: opacity .1s ease;
+}
+.image-shade:hover .overlay {
+    opacity: 1;
+}
+.image-shade:hover {
+	opacity: .7;
+	font-size: 20px;
+	font-weight: 700px;
 	box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
 }
 
