@@ -215,3 +215,28 @@
     color: #fff;
     transition: all 0.5s ease 0s;
 }
+
+#view:hover #image {
+	transform: translateY(-370px);
+}
+
+#view {
+	margin-left: 50px;
+	float:left;
+	overflow: hidden;
+	position: relative;
+	width: 300px;
+	height: 345px;
+}
+
+#image {
+	display: block;
+	left: 0px;
+	top: 300px;
+	transition: transform 0.2s ease;
+}
+
+#caption {
+	color: rgb(100, 165, 230);
+	font-size: 20px;
+}
