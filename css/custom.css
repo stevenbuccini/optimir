@@ -34,17 +34,24 @@
 	min-height: 590 px;
 }
 #jumbo {
-	background-color: rgb(100, 165, 230);
+	background-color: rgb(230,230,230);
 	margin-top: 15 px;
     text-align: left;
-    color: white;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 #about {
 	padding-top: 350px;
 }
-#home {
+/*#home {
 	padding-top: 51px;
 	min-height: 790px;
+}*/
+
+#homephoto {
+	padding-top: 51px;
+	height: 790px;
+	max-width: 960px;
 }
 .footer {
 	background-color: rgb(100, 165, 230);
@@ -239,4 +246,8 @@
 #caption {
 	color: rgb(100, 165, 230);
 	font-size: 20px;
+}
+
+#section-title {
+	font-family: 'Open Sans', sans-serif;
 }
