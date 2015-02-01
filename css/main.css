@@ -123,7 +123,6 @@ content hiding under the fixed navbar */
 .image-shade img {
   margin-left: 8px;
   width: 100%;
-  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   -o-transition: all ease 0.5s;
@@ -145,7 +144,6 @@ content hiding under the fixed navbar */
   opacity: .7;
   font-size: 20px;
   font-weight: 700px;
-  box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
 }
 
 /* END MEMBER GALLERY STUFF */
