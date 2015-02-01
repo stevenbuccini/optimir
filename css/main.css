@@ -105,7 +105,24 @@ content hiding under the fixed navbar */
   }
 }
 
+#client {
+  margin-left: 50px;
+  float:left;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 290px;
+}
 
+#clientimg {
+  left: 0px;
+  top: 300px;
+  transition: transform 0.2s ease;
+}
+
+#client:hover #clientimg{
+  transform: translateY(-300px);
+}
 /* MEMBER GALLERY STUFF */
 
 .image-shade {
