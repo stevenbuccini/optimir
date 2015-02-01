@@ -1,0 +1,271 @@
+<!doctype html> 
+<html> 
+  <head> 
+    <title>Optimir Consulting</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,700,300' rel='stylesheet' type='text/css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- ensures proper rendering and touch zooming. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Custom Optimir styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar-collapse">
+    <!-- We keep the navbar-default class to load in a lot of the structure, especially relating to the navbar collapse.
+         We then override the styling in the optimir-navbar class. -->
+    <div class="navbar navbar-default navbar-fixed-top optimir-navbar" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <!-- TODO: Official nav png should have transparent center. -->
+            <!-- Navbar is 50px by default, with 3px on top and bottom. Manually size image to 44px if you upload a new image. -->
+            <img class="img-responsive center-block" alt="Optimir Consulting" src="img/official_nav.png">
+          </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#past-clients">Past Clients</a></li>
+            <li class="hidden-xs"><a href="#members">Members</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div><!--/.navbar navbar-default navbar-fixed-top -->
+
+  <!-- ###############################-->
+  <!-- #######  Landing Image ########-->
+  <!-- ###############################-->
+    <div class="container-fluid landing-image" id="home">
+      <img src="img/landing.jpg" alt="Optimir members">
+      <div id="overlay">
+        <h1>Get in on the ground floor.</h1>
+        <p>
+          We're a group of UC Berkeley students who are passionate about startups. We consult for seed-stage startups in the Bay area.
+          <br>
+          <br>
+          Join us and have immediate impact from Day One.
+        </p>
+        <a href="recruitment.html" target="_blank">
+          <button><b>Apply Now</b></button>
+        </a>
+      </div>
+    </div>
+
+
+
+  <!-- ###############################-->
+  <!-- #######    About Us    ########-->
+  <!-- ###############################-->
+    <div class="container content" id="about">
+      <h1 class="text-center">About Optimir</h1>
+      <hr>
+      <div class="jumbotron" id = "jumbo">
+          <p>Optimir Consulting is a student-run consulting group and registered nonprofit that provides innovative, sustainable, and substantial improvements for various industry start-ups. Optimir Consulting was founded in 2011 by three UC Berkeley students passionate about business strategy and growth. Our consultants come from a variety of academic disciplines and experiences and are dedicated to providing results-driven solutions. As a student start-up, we are committed to developing and expanding our consultants' skills. We offer fast-paced and unique training for our consultants in order to optimize our clients' operations through implementation.</p>
+      </div>
+    </div>
+
+  <!-- ###############################-->
+  <!-- #######  Past Clients   #######-->
+  <!-- ###############################-->
+  <div class="container content" id="past-clients">
+    <h1 class="text-center">Past Clients</h1>
+    <hr>
+    <div class="row">
+      <div class="col-xs-4 col-md-4">
+        <a href="#" class="thumbnail img-responsive">
+          <img src="img/facebook.jpg" alt="ClearStreet">
+        </a>
+      </div>
+
+      <div class="col-xs-4 col-md-4">
+        <a href="#" class="thumbnail img-responsive">
+          <img src="img/facebook.jpg" alt="FiscalNote">
+        </a>
+      </div>
+
+      <div class="col-xs-4 col-md-4">
+        <a href="#" class="thumbnail img-responsive">
+          <img src="img/facebook.jpg" alt="FiscalNote">
+        </a>
+      </div>
+    </div><!-- End row. -->
+  </div>
+
+  <!-- ###############################-->
+  <!-- ####### MEMBER GALLERY ########-->
+  <!-- ###############################-->
+
+
+  <!-- TODO: Use the grid system for this. -->
+  <!-- NOTE: we don't display this div on phones because it's super bandwith heavy and it's annoying to scroll through all photos. -->
+  <div class="container content hidden-xs" id="members">
+    <h1 class="text-center">OptimirKats</h1>
+    <hr>
+    <a href="http://www.linkedin.com/pub/philip-james/52/997/408" rel= "nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/phil-james-new.jpg"/>
+        <div class = "overlay">
+          <span> Phil James </span>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/pub/kyle-gaan/70/930/7a3" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/kyle-gaan-new.jpg"/>
+        <div class="overlay">
+          <span> Kyle Gaan </span>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/in/stevenbuccini" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/steven-buccini-new.jpg"/>
+        <div class="overlay">
+          <span> Steven Buccini </span>
+        </div>
+      </div>
+    </a>
+    <a href="http://www.linkedin.com/pub/matthew-jones/67/51a/3a7" target="_blank">
+      <div class="image-shade"><img src="member-images/matt-jones-new.jpg"/>
+        <div class="overlay">
+          <span> Matt Jones </span>
+        </div>
+      </div>
+    </a>
+    <a href="http://www.linkedin.com/in/vivekhebbar" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/vivek-hebbar-new.jpg"/>
+        <div class="overlay">
+          <span> Vivek Hebbar </span>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/pub/taylor-lyberger/87/302/3a9" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/taylor-lyberger-new.jpg"/>
+        <div class="overlay">
+          <span> Taylor Lyberger </span>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/pub/simon-park/62/374/720" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/simon-park-new.jpg"/>
+        <div class="overlay">
+          <span> Simon Park </span>
+        </div>
+      </div>
+    </a>
+    <a href="http://www.linkedin.com/in/danielshamilton1/" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/daniel-hamilton-new.jpg"/>
+        <div class="overlay">
+          <span> Daniel Hamilton </span>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/pub/jaspreet-tathgur/65/784/42b" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/jaspreet-tathgur-new.jpg"/>
+        <div class="overlay">
+          <span> Jaspreet Tathgur </span>
+        </div>
+      </div>
+    </a>
+    <a href="http://www.linkedin.com/pub/sagar-kanumalla/55/204/a69" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/sagar-kanumalla-new.jpg"/>
+        <div class="overlay">
+          <span> Sagar Kanumalla </span>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/pub/christine-kim/48/b95/537" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/christine-kim.jpg">
+        <div class="overlay">
+          <span> Christine Kim </span>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/in/achen502" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/aaron-chen-new.jpg"/>
+        <div class="overlay">
+          <span> Aaron Chen </span>
+        </div>
+      </div>
+    </a>
+    <a href="http://www.linkedin.com/pub/braxton-greco/76/6ab/aa8" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/braxton-greco.jpg"/>
+        <div class="overlay">
+          <span> Braxton Greco </span>
+        </div>
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/pub/matthew-galligan/48/ba1/104" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/matt-galligan-new.jpg"/>
+        <div class="overlay">
+          <span> Matt Galligan </span>
+        </div>
+      </div>
+    </a>
+    <a href="http://www.linkedin.com/in/joshbotterman" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/josh-botterman.jpg"/>
+        <div class="overlay">
+          <span> Josh Botterman </span>
+        </div>
+      </div>
+    </a>
+    <a href="recruitment.html" rel="nofollow" target="_blank">
+      <div class="image-shade"><img src="member-images/meerkat.jpg"/>
+        <div class="overlay">
+          <span> YOU </span>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <!-- ###############################-->
+  <!-- #######     FOOTER     ########-->
+  <!-- ###############################-->
+  <div class="container-fluid" id="contact">
+    <div class="container pull">
+      <div class="col-xs-6 col-md-6">
+        <h1>Optimir Consulting</h1>
+        <p>
+          <a href="mailto:optimir.recruiting@berkeley.edu?Subject=Just%20wanted%20to%20get%20in%20touch"><b>Get in touch</b></a> if you want to work for us or with us.
+          <br>
+          We thoroughly enjoy coffee chats (and long walks on the beach.)
+        </p>
+      </div>
+      <div class="col-xs-6 col-md-6 text-right">
+        <div class="col-xs-12 col-md-4">
+          <a href="https://www.facebook.com/optimirconsulting" class="thumbnail">
+            <img src="img/facebook.jpg" alt="Facebook Page">
+          </a>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <a href="https://www.linkedin.com/company/optimir-consulting" class="thumbnail">
+            <img src="img/linkedin.jpg" alt="Linkedin Page">
+          </a>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <a href="https://twitter.com/optimirco" class="thumbnail">
+            <img src="img/twitter.jpg" alt="Twitter Account">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </body>
+</html>
