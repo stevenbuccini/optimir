@@ -9,7 +9,7 @@
 
 /* Magic value that Bootstrap tells us to include because we're using a fixed navbar. */
 body {
-  padding-top: 60px;
+  padding-top: 50px;
   font-family: 'Open Sans', sans-serif;
 
 }
@@ -18,10 +18,22 @@ hr {
   width: 20%;
   align: center;
    /* Set the hr color */
+  height: 1px;
   color: #000; /* old IE */
   background-color: #000; /* Modern Browsers */
 }
 
+/* This automatically makes images expand to be the same size of their containing div. */
+img {
+    max-width: 100%;
+}
+
+
+/* Add this class so that linking to a div within a page works without
+content hiding under the fixed navbar */
+.content {
+  padding-top: 55px;
+}
 
 /*  NAVBAR STUFF */
 .navbar-brand {
@@ -45,6 +57,53 @@ hr {
 }
 
 /* END NAVBAR STUFF */
+
+
+/* Start landing image */
+.landing-image {
+  position: relative; 
+  max-height: 500px;
+  overflow: hidden;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+
+}
+
+.landing-image img {
+  position: relative; 
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+
+}
+
+
+
+.landing-image #overlay { 
+  position: absolute; 
+  padding-left: 30px;
+  padding-bottom: 10px;
+  bottom: 0px;
+  max-width: 500px;
+  left: 0; 
+  width: 100%; 
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.landing-image #overlay button{ 
+  color: #000;
+}
+
+/* Center text if we're on a mobile phone. */
+@media screen and (max-device-width: >760px) {
+  .landing-image #overlay { 
+    color: red;
+  }
+}
 
 
 /* MEMBER GALLERY STUFF */
@@ -90,3 +149,10 @@ hr {
 }
 
 /* END MEMBER GALLERY STUFF */
+
+
+/* Footer */
+#contact {
+  background-color: #eee;
+  margin-top: 30px;
+}
