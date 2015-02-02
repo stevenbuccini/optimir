@@ -101,7 +101,7 @@ content hiding under the fixed navbar */
 /* Center text if we're on a mobile phone. */
 @media screen and (max-device-width: >760px) {
   .landing-image #overlay { 
-    color: red;
+    font-size: 20px;
   }
 }
 
@@ -110,18 +110,18 @@ content hiding under the fixed navbar */
   float:left;
   overflow: hidden;
   position: relative;
-  width: 300px;
-  height: 290px;
+  width: 200px;
+  height: 190px;
 }
 
 #clientimg {
   left: 0px;
-  top: 300px;
+  top: 0px;
   transition: transform 0.2s ease;
 }
 
 #client:hover #clientimg{
-  transform: translateY(-300px);
+  transform: translateY(-200px);
 }
 /* MEMBER GALLERY STUFF */
 
@@ -151,6 +151,7 @@ content hiding under the fixed navbar */
   font-weight:700;
     text-align:center;
     opacity:0;
+    font-family: 'Open Sans', sans-serif;
     -webkit-transition: opacity .1s ease;
   -moz-transition: opacity .1s ease;
 }
@@ -165,6 +166,11 @@ content hiding under the fixed navbar */
 
 /* END MEMBER GALLERY STUFF */
 
+#social {
+  position: relative;
+  max-width: 200px;
+  max-height: 200px;
+}
 
 /* Footer */
 #contact {
