@@ -68,7 +68,6 @@ content hiding under the fixed navbar */
   padding-left: 0px;
   padding-right: 0px;
   margin: 0 auto;
-
 }
 
 .landing-image img {
@@ -77,7 +76,6 @@ content hiding under the fixed navbar */
   padding-left: 0px;
   padding-right: 0px;
   margin: 0 auto;
-
 }
 
 
@@ -105,25 +103,7 @@ content hiding under the fixed navbar */
   }
 }
 
-#client {
-  margin-left: 50px;
-  float:left;
-  overflow: hidden;
-  position: relative;
-  width: 200px;
-  height: 190px;
-}
 
-#clientimg {
-  left: 0px;
-  top: 0px;
-  transition: transform 0.2s ease;
-}
-
-#client:hover #clientimg{
-  transform: translateY(-200px);
-}
-/* MEMBER GALLERY STUFF */
 
 .image-shade {
   height: 250px;
@@ -166,11 +146,6 @@ content hiding under the fixed navbar */
 
 /* END MEMBER GALLERY STUFF */
 
-#social {
-  position: relative;
-  max-width: 200px;
-  max-height: 200px;
-}
 
 /* Footer */
 #contact {
