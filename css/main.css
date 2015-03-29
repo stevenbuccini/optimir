@@ -79,8 +79,8 @@ content hiding under the fixed navbar */
 }
 
 
-
-.landing-image #overlay { 
+/*FOR RECRUITING PAGE*/
+/*.landing-image #overlay { 
   position: absolute; 
   padding-left: 30px;
   padding-bottom: 10px;
@@ -91,7 +91,14 @@ content hiding under the fixed navbar */
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0.5);
 }
+*/
 
+/*FOR OCF STICKER*/
+.landing-image #overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
 .landing-image #overlay button{ 
   color: #000;
 }
@@ -106,10 +113,10 @@ content hiding under the fixed navbar */
 
 
 .image-shade {
-  height: 250px;
-  width: 250px;
-  margin: 10px;
-  margin-bottom: 20px;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  margin-bottom: 30px;
   float: left;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
@@ -145,8 +152,10 @@ content hiding under the fixed navbar */
 }
 
 #members{
+  margin-left: 200px;
   padding-bottom: 50px;
 }
+
 
 /* END MEMBER GALLERY STUFF */
 
