@@ -97,6 +97,8 @@ content hiding under the fixed navbar */
 .landing-image #overlay {
   position: absolute;
   bottom: 0px;
+  max-width:177px;
+  max-height:48px;
   left: 0;
 }
 .landing-image #overlay button{ 
